@@ -44,7 +44,7 @@ Key characteristics:
 - Focus on lower-value goods  
 - Logistics optimized for general consumer products  
 
-➡️ This creates a **value mismatch** with Eniac’s premium products.
+ This creates a **value mismatch** with Eniac’s premium products.
 
 ---
 
