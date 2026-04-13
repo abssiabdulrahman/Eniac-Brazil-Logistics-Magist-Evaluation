@@ -1,0 +1,78 @@
+## 📌 Project Synopsis
+
+This project analyzes the logistics performance of Magist,  
+a Brazilian logistics service provider, to evaluate its  
+suitability as a potential partner for Eniac’s expansion  
+into the Brazilian market in 2018.
+
+Eniac is positioned as a premium online marketplace  
+specializing in Apple products and high-value accessories,  
+where fast and reliable delivery is essential to  
+maintaining customer satisfaction and brand reputation.
+
+The main objective of this project was to assess whether  
+Magist’s delivery performance aligns with the expectations  
+of a premium business model. Since Magist primarily  
+supports sellers offering lower-value goods, an important  
+part of the analysis focused on identifying performance  
+risks that could negatively affect the delivery experience  
+for higher-value technology products.
+
+To answer these questions, I conducted a structured  
+data analysis using SQL on a snapshot of Magist’s  
+2018 logistics dataset. The dataset included order  
+information, delivery dates, product characteristics,  
+seller data, and customer reviews.
+
+Through SQL queries, I calculated delivery times,  
+identified delayed shipments, analyzed the distribution  
+of product categories, and compared the performance of  
+technology-related deliveries with overall logistics  
+performance.
+
+Special attention was given to delay patterns and  
+potential risk factors. Product dimensions such as  
+weight, height, length, and width were analyzed  
+to determine whether larger products were more  
+likely to be delayed.
+
+In addition, customer review data was explored to  
+understand how delivery performance influenced  
+customer satisfaction. The analysis also included  
+identifying extreme delivery cases that could have  
+a strong negative impact on customer trust.
+
+The results showed that while most deliveries were  
+completed on time, approximately **7.3% of all orders  
+were delayed**, and technology-related products had  
+slightly longer average delivery times (**13 days**)  
+compared to the overall average (**12 days**).
+
+A particularly critical finding was the presence of  
+**24 extreme delivery cases**, where technology orders  
+took more than **150 days** to arrive. Even though  
+these cases were rare, they represent significant  
+risks for a premium brand that relies heavily on  
+customer experience.
+
+To communicate these findings effectively, I created  
+visualizations using Tableau to highlight delivery  
+performance trends, delay rates, and review  
+distributions.
+
+These visual insights were then integrated into a  
+structured business presentation developed in Prezi.  
+The presentation summarized the key risks and  
+translated the analytical findings into a strategic  
+recommendation for decision-makers.
+
+Based on the combined data analysis and visualization  
+results, the final recommendation was to carefully  
+reconsider the use of Magist as a logistics partner  
+for premium products.
+
+Due to delivery variability and extreme delay risks,  
+the analysis suggested exploring alternative logistics  
+providers with stronger capabilities in handling  
+high-value electronics and maintaining premium  
+delivery standards.
