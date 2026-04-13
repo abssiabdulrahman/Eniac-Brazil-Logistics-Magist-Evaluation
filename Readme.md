@@ -305,11 +305,6 @@ eniac_magist_logistics_analysis.sql
 presentation/
 eniac_brazil_logistics_strategy_presentation.pdf
 
-charts/
-delivery_performance.png
-review_distribution.png
-tech_delivery_time.png
-
 
 ---
 
