@@ -6,7 +6,7 @@
 
 ---
 
-# 🎯 Project Overview
+#  Project Overview
 
 This project evaluates whether Eniac, a premium Apple-focused e-commerce company, should partner with Magist to support logistics operations during expansion into the Brazilian market.
 
@@ -20,7 +20,7 @@ The objective of this project was to analyze delivery performance, delays, produ
 
 ---
 
-# 🏢 About Eniac
+#  About Eniac
 
 Eniac is a premium online marketplace focused on Apple products and accessories.
 
@@ -34,7 +34,7 @@ Key characteristics:
 
 ---
 
-# 📦 About Magist
+#  About Magist
 
 Magist is a Brazilian logistics and order management provider supporting multiple online sellers.
 
@@ -48,7 +48,7 @@ Key characteristics:
 
 ---
 
-# 🎯 Business Objective
+#  Business Objective
 
 Eniac aims to:
 
@@ -65,7 +65,7 @@ The analysis reflects logistics performance based on a **snapshot of Magist oper
 
 ---
 
-# 📊 Dataset Information
+#  Dataset Information
 
 **Dataset Source:**  
 Magist logistics dataset (educational snapshot version).
@@ -90,7 +90,7 @@ Magist logistics dataset (educational snapshot version).
 
 ---
 
-# 📊 Key Findings
+#  Key Findings
 
 ## Delivery Performance
 
@@ -108,7 +108,7 @@ Additional delivery risks:
 - Some deliveries took **up to 1 month**
 - **24 tech orders exceeded 150 days**
 
-➡️ Delivery variability presents significant risk for premium logistics.
+ Delivery variability presents significant risk for premium logistics.
 
 ---
 
@@ -122,7 +122,7 @@ Rating distribution:
 - ⭐ 2-star reviews: **986**
 - ⭐ 1-star reviews: **2,603**
 
-➡️ Lower ratings indicate customer dissatisfaction risks.
+ Lower ratings indicate customer dissatisfaction risks.
 
 ---
 
@@ -140,7 +140,7 @@ Tech share of total sales:
 
 **~9.9%**
 
-➡️ Magist is primarily a general-product marketplace.
+ Magist is primarily a general-product marketplace.
 
 ---
 
@@ -151,7 +151,7 @@ Tech share of total sales:
 - Total sellers: **3,095**
 - Tech sellers share: **12.47%**
 
-➡️ Limited specialization in tech logistics.
+ Limited specialization in tech logistics.
 
 ---
 
@@ -166,7 +166,7 @@ Variables analyzed:
 
 Key insight:
 
-➡️ Larger and heavier products show **higher delay risk**.
+ Larger and heavier products show **higher delay risk**.
 
 ---
 
@@ -174,7 +174,7 @@ Key insight:
 
 - **24 tech orders exceeded 150 days delivery time**
 
-➡️ Even rare extreme delays represent serious brand risk.
+ Even rare extreme delays represent serious brand risk.
 
 ---
 
@@ -197,7 +197,7 @@ charts/
 
 ---
 
-# 📊 Presentation
+#  Presentation
 
 Full presentation:
 
@@ -209,7 +209,7 @@ Online version:
 
 ---
 
-# 📊 Presentation Structure
+#  Presentation Structure
 
 The presentation is divided into two main sections:
 
@@ -250,7 +250,7 @@ This section provides transparency and validation of the analytical process.
 
 ---
 
-# 🚚 Alternative Supplier Evaluation
+#  Alternative Supplier Evaluation
 
 ## Recommended Alternative: DHL Supply Chain
 
@@ -262,11 +262,11 @@ Key strengths:
 - Structured logistics infrastructure  
 - Comprehensive customer service support  
 
-➡️ Better alignment with premium delivery expectations.
+ Better alignment with premium delivery expectations.
 
 ---
 
-# 🛠️ Technologies Used
+#  Technologies Used
 
 **Programming:**
 
@@ -293,7 +293,7 @@ Key strengths:
 
 ---
 
-# 📂 Project Files
+#  Project Files
 
 
 eniac-brazil-logistics-magist-evaluation/
@@ -308,7 +308,7 @@ eniac_brazil_logistics_strategy_presentation.pdf
 
 ---
 
-# 🗄️ SQL Analysis
+#  SQL Analysis
 
 All data exploration and business analysis queries were written in SQL.
 
@@ -327,7 +327,7 @@ SQL file:
 
 ---
 
-# 📦 Final Recommendation
+#  Final Recommendation
 
 **Magist should not be used as the primary logistics partner.**
 
@@ -350,7 +350,7 @@ This recommendation is based on **Magist logistics performance snapshot data fro
 
 ---
 
-# 🚀 Future Work
+#  Future Work
 
 Further analysis could include:
 
@@ -361,7 +361,7 @@ Further analysis could include:
 
 ---
 
-# 📅 Project Information
+#  Project Information
 
 Project completed: **April 2026**  
 Project duration: **1 week**
@@ -377,7 +377,7 @@ Skills demonstrated:
 
 ---
 
-# 📧 Contact
+#  Contact
 
 Name: Abdul Rahman Abssi  
 Email: abssiabdulrahman@gmail.com
