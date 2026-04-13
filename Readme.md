@@ -178,7 +178,7 @@ Key insight:
 
 ---
 
-# 📈 Visualisations
+#  Visualisations
 
 Charts and dashboards were created using Tableau to support analysis of delivery performance and delay patterns.
 
