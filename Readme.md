@@ -1,384 +1,128 @@
+follows the feedback exactly.
+
 # Eniac Brazil Logistics Strategy Analysis  
-## Evaluating Magist as a Logistics Partner for Premium Tech Products
+## Evaluating Magist as a Logistics Partner (2018)
 
-**Tools Used:** SQL | MySQL | Tableau | Prezi | Business Analytics  
-**Dataset:** Magist Logistics Dataset Snapshot (2018)
+##  Project Introduction
 
----
+This project was completed as part of my data analytics training and focuses on evaluating logistics performance for a business expansion scenario.
 
-#  Project Overview
+The case simulates Eniac, a premium Apple-focused e-commerce company planning to expand into Brazil. Since delivery reliability is critical for premium products, the goal was to evaluate whether Magist, a Brazilian logistics provider, could meet the company's quality expectations.
 
-This project evaluates whether Eniac, a premium Apple-focused e-commerce company, should partner with Magist to support logistics operations during expansion into the Brazilian market.
-
-Eniac sells high-value Apple-compatible products through its own website. Because of this premium positioning, delivery reliability plays a critical role in customer satisfaction and brand reputation.
-
-The objective of this project was to analyze delivery performance, delays, product characteristics, sales value distribution, and customer reviews to determine whether Magist’s logistics performance meets premium expectations.
-
-**Project completed:** April 2026  
-**Dataset type:** Snapshot of Magist operational data  
-**Market context:** Brazilian e-commerce logistics performance in **2018**
+Through this project, I applied SQL, data visualization, and business reasoning to support a strategic logistics decision.
 
 ---
 
-#  About Eniac
+##  Project Objective
 
-Eniac is a premium online marketplace focused on Apple products and accessories.
+The main objective of this project was to analyze delivery performance data and determine whether Magist is a suitable logistics partner for Eniac’s expansion into Brazil.
 
-Key characteristics:
+Key questions included:
 
-- Customers purchase directly through Eniac’s website  
-- Average order value: **€710**  
-- Average item price: **€514**  
-- Focus on premium customer experience  
-- High expectations for delivery reliability  
-
----
-
-#  About Magist
-
-Magist is a Brazilian logistics and order management provider supporting multiple online sellers.
-
-Key characteristics:
-
-- Average item price on Magist: **€120.65**  
-- Focus on lower-value goods  
-- Logistics optimized for general consumer products  
-
- This creates a **value mismatch** with Eniac’s premium products.
+- Are deliveries reliable enough for premium products?
+- Are delays common?
+- Are tech-related deliveries slower?
+- Would an alternative logistics provider be more suitable?
 
 ---
 
-#  Business Objective
+##  Project Workflow
 
-Eniac aims to:
+This project followed three main steps:
 
-- Enter the Brazilian market within **1 year**
-- Maintain premium delivery standards
-- Protect brand reputation
-- Ensure customer satisfaction
+### 1️ Data Analysis (SQL)
 
-**Main business question:**
+I explored and analyzed a snapshot of Magist logistics data from 2018 using SQL.
 
-Can Magist’s logistics performance support premium delivery expectations?
+Main tasks included:
 
-The analysis reflects logistics performance based on a **snapshot of Magist operations in 2018**, prior to COVID-19 disruptions.
+- Calculating delivery times  
+- Identifying delayed orders  
+- Analyzing tech product performance  
+- Exploring customer reviews  
+- Detecting delay patterns  
 
----
-
-#  Dataset Information
-
-**Dataset Source:**  
-Magist logistics dataset (educational snapshot version).
-
-**Dataset Characteristics:**
-
-- **99,441 total orders**
-- **32,951 products**
-- **3,095 sellers**
-- **74 product categories**
-- Snapshot representing logistics operations around **2018**
-
-**Main Tables Used:**
-
-- orders  
-- order_items  
-- products  
-- sellers  
-- order_reviews  
-- order_payments  
-- customers  
+ SQL file:  
+`sql/eniac_magist_logistics_analysis.sql`
 
 ---
 
-#  Key Findings
+### 2️ Data Visualisation (Tableau)
 
-## Delivery Performance
+Key results were visualized using Tableau to make patterns easier to interpret and communicate.
 
-- On-time orders: **88,649**
-- Delayed orders: **7,827**
-- Overall delay rate: **7.3%**
+Visualisations included:
 
-Average delivery time:
+- Delivery performance overview  
+- Delay rate comparison  
+- Review distribution  
+- Tech delivery time analysis  
 
-- Overall delivery time: **12 days**
-- Tech delivery time: **13 days**
+ Tableau visualisations are included as exported charts in:
 
-Additional delivery risks:
-
-- Some deliveries took **up to 1 month**
-- **24 tech orders exceeded 150 days**
-
- Delivery variability presents significant risk for premium logistics.
+`charts/`
 
 ---
 
-## Customer Review Breakdown
+### 3️ Business Presentation (Prezi)
 
-Rating distribution:
+The final insights and recommendations were presented using Prezi.
 
-- ⭐ 5-star reviews: **36,175**
-- ⭐ 4-star reviews: **12,971**
-- ⭐ 3-star reviews: **4,515**
-- ⭐ 2-star reviews: **986**
-- ⭐ 1-star reviews: **2,603**
+The presentation includes:
 
- Lower ratings indicate customer dissatisfaction risks.
+- Business context  
+- Key risks  
+- Performance analysis  
+- Strategic recommendation  
 
----
-
-## Sales Value Breakdown
-
-Total sales value:
-
-**€13.6 Million**
-
-Tech product sales:
-
-**€1.3 Million**
-
-Tech share of total sales:
-
-**~9.9%**
-
- Magist is primarily a general-product marketplace.
-
----
-
-## Tech Product Market Insights
-
-- Tech products sold: **11,161**
-- Tech sellers: **386**
-- Total sellers: **3,095**
-- Tech sellers share: **12.47%**
-
- Limited specialization in tech logistics.
-
----
-
-## Drivers of Delivery Delays
-
-Variables analyzed:
-
-- Product weight  
-- Product length  
-- Product height  
-- Product width  
-
-Key insight:
-
- Larger and heavier products show **higher delay risk**.
-
----
-
-## Extreme Delivery Cases
-
-- **24 tech orders exceeded 150 days delivery time**
-
- Even rare extreme delays represent serious brand risk.
-
----
-
-#  Visualisations
-
-Charts and dashboards were created using Tableau to support analysis of delivery performance and delay patterns.
-
-Visualisations include:
-
-- Delivery performance comparison  
-- Customer review distribution  
-- Tech delivery time comparison  
-- Delay rate visualisation  
-
-All visualisation files are stored in:
-
-
-charts/
-
-
----
-
-#  Presentation
-
-Full presentation:
-
+ Presentation file:  
 `presentation/eniac_brazil_logistics_strategy_presentation.pdf`
 
-Online version:
-
-(https://prezi.com/view/CUZOOmy98nwU1v48ozGc/?referral_token=QcoEMklnB3FN)
-
 ---
 
-#  Presentation Structure
+##  Key Outcome
 
-The presentation is divided into two main sections:
+The analysis identified delivery risks that could negatively impact premium customer experience.
 
----
+Key findings included:
 
-## Main Presentation (Executive Summary)
-
-This section focuses on key business insights and strategic recommendations.
-
-Main slides include:
-
-- Business context and expansion objective  
-- Value comparison between Eniac and Magist  
-- Delivery performance overview  
-- Identification of premium logistics risks  
-- Strategic recommendation against using Magist  
-
-This section summarizes the most critical insights for executive decision-making.
-
----
-
-## Appendix (Detailed Technical Analysis)
-
-The appendix contains deeper analytical insights supporting the recommendation.
-
-Appendix includes:
-
-- Sales value vs tech sales value comparison  
-- Delivery delay benchmarking  
-- Customer review distribution analysis  
-- Delivery time analysis for tech products only  
-- Extreme delay case analysis (>150 days deliveries)  
-- Product size impact on delivery delays  
-- Tech seller distribution analysis  
-- Additional supporting charts and detailed metrics  
-
-This section provides transparency and validation of the analytical process.
-
----
-
-#  Alternative Supplier Evaluation
-
-## Recommended Alternative: DHL Supply Chain
-
-Key strengths:
-
-- Global logistics provider  
-- Active in Brazil since **1978**  
-- Experience handling high-value electronics  
-- Structured logistics infrastructure  
-- Comprehensive customer service support  
-
- Better alignment with premium delivery expectations.
-
----
-
-#  Technologies Used
-
-**Programming:**
-
-- SQL (MySQL)
-
-**Data Analysis Tools:**
-
-- MySQL Workbench  
-- Tableau (Data Visualization)
-
-**Presentation Tools:**
-
-- Prezi (Business Presentation)
-
-**Techniques Applied:**
-
-- Delivery time analysis  
-- Delay pattern detection  
-- Sales segmentation  
-- Product dimension analysis  
-- Business strategy evaluation  
-- Data visualization  
-- Data storytelling  
-
----
-
-#  Project Files
-
-
-eniac-brazil-logistics-magist-evaluation/
-
-README.md
-
-eniac_magist_logistics_analysis.sql
-
-presentation/
-eniac_brazil_logistics_strategy_presentation.pdf
-
-
----
-
-#  SQL Analysis
-
-All data exploration and business analysis queries were written in SQL.
-
-Key analyses included:
-
-- Order volume analysis  
-- Delivery delay calculations  
-- Tech category analysis  
-- Product size delay analysis  
-- Customer review distribution  
-- Sales segmentation  
-
-SQL file:
-
-`eniac_magist_logistics_analysis.sql`
-
----
-
-#  Final Recommendation
-
-**Magist should not be used as the primary logistics partner.**
-
-Main reasons:
-
-- **7.3% delayed orders**
-- Average delivery time: **12–13 days**
-- Some deliveries take **up to 1 month**
+- **7.3% delayed deliveries**
+- **Average delivery time: 12–13 days**
 - **24 extreme delays (>150 days)**
-- Large value mismatch (**€514 vs €120**)
-- Risk to premium customer experience
+- Delivery risk increased with larger products
 
-Recommended strategy:
-
-- Use premium logistics providers such as **DHL Supply Chain**
-- Use temporary logistics support during early testing
-- Maintain strict delivery reliability standards
-
-This recommendation is based on **Magist logistics performance snapshot data from 2018**.
+Based on these findings, the recommendation was to **consider alternative logistics providers** better suited for premium electronics.
 
 ---
 
-#  Future Work
+##  What I Learned
 
-Further analysis could include:
+This project helped me strengthen both technical and business skills.
 
-- Regional delivery comparison  
-- Monthly delay trend tracking  
-- Customer complaint text analysis  
-- Logistics cost benchmarking  
+Key learnings:
 
----
+- Writing structured SQL queries for business analysis  
+- Identifying performance patterns in logistics data  
+- Using Tableau to visualize key insights  
+- Translating data findings into business recommendations  
+- Understanding how data supports strategic decisions  
 
-#  Project Information
-
-Project completed: **April 2026**  
-Project duration: **1 week**
-
-Skills demonstrated:
-
-- SQL data analysis  
-- Business problem solving  
-- Logistics performance evaluation  
-- Strategic recommendation development  
-- Data storytelling  
-- Data visualization using Tableau  
+As a student, this project improved my confidence in moving from raw data to meaningful business insights.
 
 ---
 
-#  Contact
+##  Tools Used
 
-Name: Abdul Rahman Abssi  
-Email: abssiabdulrahman@gmail.com
+- SQL (MySQL)  
+- Tableau  
+- Prezi  
+- GitHub  
+
+---
+
+##  Project Details
+
+Dataset: Magist logistics dataset snapshot (2018)  
+Project completed: April 2026  
+Project type: Business case analysis  
 
