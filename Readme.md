@@ -112,8 +112,7 @@ As a student, this project improved my confidence in moving from raw data to mea
 
 - SQL (MySQL)  
 - Tableau  
-- Prezi  
-- GitHub  
+- Prezi   
 
 ---
 
