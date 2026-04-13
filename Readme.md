@@ -58,9 +58,6 @@ Visualisations included:
 - Review distribution  
 - Tech delivery time analysis  
 
- Tableau visualisations are included as exported charts in:
-
-`charts/`
 
 ---
 
